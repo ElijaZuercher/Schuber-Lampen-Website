@@ -1,0 +1,126 @@
+html,
+body {
+  padding: 0px;
+  margin-top: 0px;
+  border: 0px;
+}
+
+.header-container {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  justify-content: center;
+
+}
+
+.navigation-container {
+
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: #f8f8ff;
+  justify-content: space-evenly;
+}
+
+.navigation-item {
+  display: flex;
+  color: black;
+  height: 50px;
+  width: 150px;
+  margin-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  justify-content: center;
+
+}
+
+h1 {
+  padding: 5px 50px 30px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.imglupe {
+  display: flex;
+  margin-top: 17px;
+  margin-left: 95%;
+
+}
+
+
+.breadcrumbs {
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.breadcrumbs__item:not(:last-of-type)::after {
+  content: '/';
+  margin: 0 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+  color: lightslategray;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.breadcrumbs__link:hover {
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.breadcrumbs__link--active {
+  text-decoration: none;
+  color: #009578;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Produkte-container {
+  display: flex;
+  height: 700px;
+
+  margin-top: 5%;
+  justify-content: center;
+  margin-right: 2%;
+  margin-left: 2%;
+  flex-wrap: wrap;
+}
+
+.Produkt-item {
+  height: 600px;
+  width: 400px;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.Produkt-text {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+}
+
+.img {
+  width: 400px;
+  height: 600px;
+}

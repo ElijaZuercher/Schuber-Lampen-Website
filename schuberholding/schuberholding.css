@@ -1,0 +1,148 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  justify-content: center;
+
+}
+
+.navigation-container {
+
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: #f8f8ff;
+  justify-content: space-evenly;
+}
+
+.navigation-item {
+  display: flex;
+  color: black;
+  height: 50px;
+  width: 150px;
+  margin-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  justify-content: center;
+
+}
+
+h1 {
+  padding: 5px 50px 30px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.imglupe {
+  display: flex;
+  margin-top: 17px;
+  margin-left: 95%;
+
+
+}
+
+.Impressumcontainer {
+  background-color: #f8f8ff;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 25px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.containermaster {
+  display: flex;
+
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-evenly;
+}
+
+
+.kleinercontainera {
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Kontakformular {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.Hauptcontainer1 {
+  display: flex;
+  width: 98%;
+  height: 850px;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #f8f8ff;
+}
+
+.Hauptcontainer2 {
+  display: flex;
+  width: 98%;
+  height: 850px;
+  background-color: #d1d1e0;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.Textcontainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  width: 40%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Bildconainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 5%;
+  background-color: yellow;
+  width: 90%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Bildconainer2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  background-color: yellow;
+  width: 90%;
+  height: 800px;
+  justify-content: center;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}

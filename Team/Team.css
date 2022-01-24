@@ -1,0 +1,230 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  justify-content: center;
+
+}
+
+.navigation-container {
+
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: #f8f8ff;
+  justify-content: space-evenly;
+}
+
+.navigation-item {
+  display: flex;
+  color: black;
+  height: 50px;
+  width: 150px;
+  margin-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  justify-content: center;
+
+}
+
+h1 {
+  padding: 50px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.imglupe {
+  display: flex;
+  margin-top: 17px;
+  margin-left: 95%;
+
+
+}
+
+.Impressumcontainer {
+  background-color: #f8f8ff;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 50px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.containermaster {
+  display: flex;
+
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-evenly;
+}
+
+
+.kleinercontainera {
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+
+.Aktionencontainer {
+  display: flex;
+  width: 90%;
+  height: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  justify-content: space-evenly;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Kontakformular {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.Hauptcontainer1 {
+  display: flex;
+  width: 98%;
+  height: 850px;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #f8f8ff;
+}
+
+.Hauptcontainer2 {
+  display: flex;
+  width: 98%;
+  height: 850px;
+  background-color: #d1d1e0;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.Hauptcontainer3 {
+  display: flex;
+  width: 98%;
+  height: 400px;
+  background-color: #d1d1e0;
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: center;
+}
+
+.Hauptcontainer4 {
+  display: flex;
+  width: 98%;
+  height: 400px;
+  background-color: #f8f8ff;
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-evenly;
+}
+
+.Textcontainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Textcontainer2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  width: 40%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Bildconainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 5%;
+
+  width: 90%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Bildconainer2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+
+  width: 90%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Bildcontainer3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 5%;
+
+  width: 44%;
+  height: 800px;
+  justify-content: center;
+}
+
+.Bildconainer4 {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+
+  width: 200px;
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+.Bilder-text {
+  display: flex;
+  width: 300px;
+  height: 100px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.img2 {
+  height: 300px;
+  width: 200px;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.link {
+  text-decoration: underline;
+}

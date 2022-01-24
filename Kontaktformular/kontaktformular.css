@@ -1,0 +1,146 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  justify-content: center;
+
+}
+
+.navigation-container {
+
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: #f8f8ff;
+  justify-content: space-evenly;
+}
+
+.navigation-item {
+  display: flex;
+  color: black;
+  height: 50px;
+  width: 150px;
+  margin-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  justify-content: center;
+
+}
+
+h1 {
+  padding: 5px 50px 30px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.imglupe {
+  display: flex;
+  margin-top: 17px;
+  margin-left: 95%;
+
+
+}
+
+.Impressumcontainer {
+  background-color: #f8f8ff;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.containermaster {
+  display: flex;
+
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-evenly;
+}
+
+
+.kleinercontainera {
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Kontakformular {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.Kontak-container {
+  display: flex;
+
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  background-color: #f8f8ff;
+  width: 200px;
+  height: 400px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.input-container {
+  width: 200px;
+  height: 400px;
+  background-color: #f8f8ff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 192px;
+  margin-top: 5px;
+}
+
+.text2 {
+  font-size: 22px;
+  padding-bottom: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+}
+
+.text3 {
+  width: 192px;
+  height: 175px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.item-container {
+  margin-top: 5px;
+}
+
+.link {
+  text-decoration: underline;
+}
